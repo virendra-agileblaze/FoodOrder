@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.agileblaze.foodorder.AddFood">
+
+    <ImageButton
+        android:id="@+id/addImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:onClick="addImage"/>
+    <EditText
+        android:id="@+id/foodName"
+        android:hint="Enter food name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/foodDescription"
+        android:hint="Enter food Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/foodPrice"
+        android:hint="Enter Food Price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/addFood"
+        android:text="ADD ITEM TO MENU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addItemButton"/>
+
+</LinearLayout>
